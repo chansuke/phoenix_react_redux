@@ -9,6 +9,8 @@ defmodule PhoenixReactRedux do
     children = [
       # Start the endpoint when the application starts
       supervisor(PhoenixReactRedux.Endpoint, []),
+      # Start the Ecto Repository
+      worker(PhoenixReactRedux.Repo, []),
       # Here you could define other workers and supervisors as children
       # worker(PhoenixReactRedux.Worker, [arg1, arg2, arg3]),
     ]

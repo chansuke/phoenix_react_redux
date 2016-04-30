@@ -5,6 +5,14 @@
 # is restricted to this project.
 use Mix.Config
 
+config :phoenix_react_redux, PhoenixReactRedux.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  database: "phoenix_react_redux_repo",
+  username: "YusukeAbe",
+  password: "cruyf0825",
+  hostname: "localhost"
+
+
 # Configures the endpoint
 config :phoenix_react_redux, PhoenixReactRedux.Endpoint,
   url: [host: "localhost"],
