@@ -1,0 +1,24 @@
+{
+  "name": "phoenix_react_redux",
+  "version": "1.0.0",
+  "description": "Phoenix with React and Redux.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chansuke/phoenix_react_redux.git"
+  },
+  "author": "chansuke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chansuke/phoenix_react_redux/issues"
+  },
+  "homepage": "https://github.com/chansuke/phoenix_react_redux#readme"
+}
